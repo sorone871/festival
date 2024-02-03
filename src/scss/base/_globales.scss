@@ -12,6 +12,9 @@ body{
     font-family: v.$fuente_principal;
     font-size: 1.6rem;
     // background-color: rgb(33, 33, 33);
+    &.fijar-body{
+        overflow: hidden;
+    }
 }
 p{
     font-size: 2rem;

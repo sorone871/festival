@@ -17,7 +17,10 @@
     <header class="header">
         
         <div class="contenedor contenido-header">
-            <h1>Rock & Metal Festival</h1>
+            <a href="#">
+
+                <h1 id="inicio">Rock & Metal Festival</h1>
+            </a>
 
 
             <input type="checkbox" name="" id="check">
@@ -27,9 +30,9 @@
             </label>  
 
             <nav class="navegacion-principal">
-                <a href="#" style="--i:1">Line Up</a>
-                <a href="#" style="--i:2">Galeria</a>
-                <a href="#" style="--i:3">Boletos</a>
+                <a href="#lineup" style="--i:1">Line Up</a>
+                <a href="#galeria" style="--i:2">Galeria</a>
+                <a href="#boletos" style="--i:3">Boletos</a>
             </nav>
         </div>
         
@@ -49,6 +52,7 @@
         </video>
     </div>
 
+    <!-- Esccion 1 -->
     <section class="contenedor sobre-festival">
         <div class="imagen">
             <picture>
@@ -70,22 +74,184 @@
         </div>
     </section>
     
-    <section class="lineup">
+    <!-- Seccion 2 -->
+    <section id="lineup" class="lineup">
         <h3>Line Up</h3>
-        <p class="dia">Viernes 21</p>
 
+        <p class="dia">Viernes 21</p>
         <div class="escenarios-contenedor contenedor">
+            <!-- una carta -->
             <div class="escenario rock bg-amarillo">
                 <p class="nombre-escenario">Escenario Rock</p>
 
                 <ul class="calendario">
-                    
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>  
+                </ul>
+            </div>
+
+            <!-- una carta -->
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Deadmau5</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
                 </ul>
             </div>
         </div>
+
+
+        <p class="dia">Sabado 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <!-- una carta -->
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- una carta -->
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </section>
     
+    <!-- Seccion 3 Galeria -->
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galeria</h3>
 
-    
+        <ul class="galeria-imagenes">
+
+        </ul>
+    </section>
+
+    <!-- Seccion 4  -->
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <!--  -->
+            <div class="basico pase">
+                <p class="nombre-pase">Pase Por 1 Dia</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            
+            <div class="premium pase">
+                <p class="nombre-pase">Pase Por 2 Dias</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$200</p>
+                </footer>
+            </div>
+            <!--  -->
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>Rock & EDM Festival</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
 </body>
 </html>
